@@ -1,0 +1,52 @@
+/* App.css */
+
+.top{
+    background-color: teal;
+    color: #bf1313;
+    padding: 6px;
+box-shadow: (99, 99, 99, 0.2) 0px 2px 8px 0px;
+position: absolute;
+width: 100%;
+font-family: 'Times New Roman', Times, serif;
+  }
+  .header_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+ .top img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+    border-radius: 15px;
+ }
+ .list_bar a {
+    color: #fffafa;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .list_bar a:hover {
+    text-decoration: underline;
+    color: #bf1313;
+  }
+  .imd_main img{
+    position:relative;
+   top:100px;
+   width: 100%;
+   border-radius: 15px;
+  }
+  .card_box{
+    top:130px;
+    position: relative;
+  }
+  .card_box h1:hover {
+    text-decoration: underline;
+    color: rgb(227, 106, 95);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .slide-container{
+    top:90px;
+    position: relative;
+  }
